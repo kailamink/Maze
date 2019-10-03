@@ -29,7 +29,6 @@ public class MazeBuilder {
             }
 
             block.removeWalls(neighbor);
-
             stack.push(block);
             stack.push(neighbor);
         }
